@@ -2,9 +2,29 @@
 <html>
     <head>
         <title>Title of the page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
     </head>
     <body>
         <h1>Highest level Heading</h1>
+        <div class="columns">
+            <div class="column">
+                First Column
+            </div>
+            <div class="column">
+                Second Column
+            </div>
+            <div class="column">
+                Third Column
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-JavaScript-Templates/3.13.0/js/tmpl.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/query-result/0.2.0/query-result.js"></script>
+        <script>
+           $(function(){
+               
+               $(".column").addClass("is-danger");
+           });
+        </script>
     </body>
 
 </html>

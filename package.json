@@ -1,0 +1,27 @@
+{
+  "name": "whatdoyoumeme",
+  "version": "1.0.0",
+  "description": "Lakshmi Gurram I’m Lakshmi Gurram, I’ve done my undergrad in Information Technology, as part of the curriculum I’ve taken C, Java, Oracle and HTML courses. After graduation, I’ve worked for around 3.5 years as a Software Developer in Tata Consultancy Services. For the 1st year mostly I’ve involved in maintenance activities, in one word it's a mechanical work like generating weekly/monthly reports, resolving issues without missing SLA, answering customer calls....., after that, I’ve moved to a small java project which is having 3 months lifetime. Finally, I’ve moved to front end development where we have to enhance the webpages based on the requirements and adding accessibility features to every component on the web page, while working there I’ve realized of my technology passion and I’ve landed here.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "bulma": "^0.8.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakshmiGurram6621/What-Do-You-Meme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LakshmiGurram6621/What-Do-You-Meme/issues"
+  },
+  "homepage": "https://github.com/LakshmiGurram6621/What-Do-You-Meme#readme"
+}
